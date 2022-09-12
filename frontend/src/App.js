@@ -8,6 +8,7 @@ import './App.css';
 function App() {
   const [loadedProducts, setLoadedProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  
 
   useEffect(() => {
     const fetchProducts = async () => {
